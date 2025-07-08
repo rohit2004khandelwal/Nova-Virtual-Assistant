@@ -5,6 +5,6 @@ function speak(text) {
     speech.rate = 1;
     speech.pitch = 1;
     speech.volume = 1;
-    speech.lang = 'en-US';
+    speech.lang = 'en-IN';
     window.speechSynthesis.speak(speech);
 }
